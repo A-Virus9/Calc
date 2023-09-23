@@ -1,0 +1,71 @@
+.container{
+  height: 60rem;
+  width: 40rem;
+  border: 0.2rem solid black;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+#screen{
+  height: 15rem;
+  border-bottom: 0.1rem solid black;
+  background-color: black;
+  font-size: 6rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end; 
+}
+#numbers{
+  height: 45rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0.8rem;
+  background-color: black;
+  box-sizing: border-box;
+}
+.buttons{
+  border: 0.1rem solid black;
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  background-color: rgb(83, 83, 83);
+  text-shadow: 0 0 0.3rem black;
+  box-shadow: inset 0 0 0.2rem black;
+}
+.buttons:hover{
+  background-color: #e9e9e9;
+}
+.operator{
+  font-size: 4rem;
+}
+.orange{
+  background-color: rgb(255, 159, 33);
+  text-shadow: 0 0 0.3rem black;
+}
+.orange:hover{
+  background-color: rgb(180, 112, 22);
+}
+.light{
+  background-color: rgb(187, 187, 187);
+  color: black;
+  text-shadow: 0 0 0.1rem black;
+}
+input{
+  font-size: 6rem;
+  max-width: 36rem;
+  min-height: 3rem;
+  text-align: end;
+  border: none;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  caret-color: transparent;
+}
