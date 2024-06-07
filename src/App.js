@@ -33,8 +33,7 @@ export default function App() {
       disVal.slice(-1) === "%"
     ) {
       return 1;
-    } 
-    else {
+    } else {
       return 0;
     }
   }
